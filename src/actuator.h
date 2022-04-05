@@ -292,9 +292,9 @@ namespace ControlTableItem{
 
     TORQUE_ENABLE,
     LED,
-    LED_RED,
-    LED_GREEN,
-    LED_BLUE,
+    LED_RED_L,
+    LED_GREEN_L,
+    LED_BLUE_L,
     REGISTERED_INSTRUCTION,
     HARDWARE_ERROR_STATUS,
     VELOCITY_P_GAIN,

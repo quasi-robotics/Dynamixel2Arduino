@@ -557,7 +557,7 @@ bool Dynamixel2Arduino::setLedState(uint8_t id, bool state)
     case PRO_M42P_010_S260_R:
     case PRO_M54P_040_S250_R:
     case PRO_M54P_060_S250_R:
-      ret = writeControlTableItem(ControlTableItem::LED_RED, id, state);
+      ret = writeControlTableItem(ControlTableItem::LED_RED_L, id, state);
       break;
 
     default:
